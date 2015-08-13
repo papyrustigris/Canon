@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 
+use App\Solutions;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -14,7 +15,18 @@ class SolutionsController extends Controller {
 	 */
 	public function index()
 	{
-		return view('solutions-home');
+		$solutions = Solutions::all();
+		return view('solutions-home')->with('solutions', $solutions);
+	}
+	/**
+	 * Display a listing of the resource.
+	 *
+	 * @return Response
+	 */
+	public function index2()
+	{
+		$solutions = Solutions::all();
+		return view('solutions-page')->with('solutions', $solutions);
 	}
 
 	/**

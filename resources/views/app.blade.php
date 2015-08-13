@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Laravel</title>
+	<title>Canon</title>
 
 	<link href="/css/app.css" rel="stylesheet">
 	<link href="/css/custom.css" rel="stylesheet">
@@ -21,7 +21,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-default">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only">Toggle Navigation</span>
@@ -30,6 +30,10 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="#">Solutions Homepage Headline</a>
+			</div>
+			<!-- if route is _______ show navright info -->
+			<div class="navbar-right">
+				<h1>hello</h1>				
 			</div>
 		</div>
 	</nav>
@@ -47,7 +51,7 @@
 				</div>
 				<div class="col-xs-4">
 					<span style="margin-top:35px">
-						<a href="" class="btn btn-primary btn-lg" style="margin-top:15px">Solutions</a>
+						<a href="/solutions-page" class="btn btn-primary btn-lg" style="margin-top:15px">Solutions</a>
 							&nbsp;
 						<a href="" class="btn btn-primary btn-lg" style="margin-top:15px">Zone Map</a>
 					</span>
@@ -60,5 +64,11 @@
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+		$('.item').first().addClass('active');
+	});
+</script>
 </body>
 </html>

@@ -55,7 +55,7 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => 'localhost',
-            'database'  => 'CANON',
+            'database'  => 'canon',
             'username'  => 'root',
             'password'  => '',
             'charset'   => 'utf8',

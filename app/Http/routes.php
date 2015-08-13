@@ -14,6 +14,7 @@
 Route::get('/', 'WelcomeController@index');
 
 Route::get('solutions-home', 'SolutionsController@index');
+Route::get('solutions-page', 'SolutionsController@index2');
 
 Route::get('home', 'HomeController@index');
 
