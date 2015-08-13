@@ -2,7 +2,7 @@
 
 @section('content')
 <div id="interactive-carousel" class="container-fluid">
-	<div class="container">
+	<div class="container-fluid">
 	  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:460px">
 	    <!-- Indicators -->
 	    <ol class="carousel-indicators">
@@ -15,19 +15,43 @@
 	    <!-- Wrapper for slides -->
 	    <div class="carousel-inner" role="listbox">
 	      <div class="item active">
-	        <img src="http://www.placehold.it/1000x460" alt="Chania">
+	        <div class="col-xs-12">
+	        	<div class="text-center">
+	        		<h1 style="margin-top:100px">
+	        			Solution #1
+	        		</h1>
+	        	</div>
+	        </div>
 	      </div>
 
 	      <div class="item">
-	        <img src="http://www.placehold.it/1000x460" alt="Chania">
+	        <div class="col-xs-12">
+	        	<div class="text-center">
+	        		<h1 style="margin-top:100px">
+	        			Solution #2
+	        		</h1>
+	        	</div>
+	        </div>
 	      </div>
 	    
 	      <div class="item">
-	        <img src="http://www.placehold.it/1000x460" alt="Flower">
+	        <div class="col-xs-12">
+	        	<div class="text-center">
+	        		<h1 style="margin-top:100px">
+	        			Solution #3
+	        		</h1>
+	        	</div>
+	        </div>
 	      </div>
 
 	      <div class="item">
-	        <img src="http://www.placehold.it/1000x460" alt="Flower">
+	        <div class="col-xs-12">
+	        	<div class="text-center">
+	        		<h1 style="margin-top:100px">
+	        			Solution #4
+	        		</h1>
+	        	</div>
+	        </div>
 	      </div>
 	    </div>
 
