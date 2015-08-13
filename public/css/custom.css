@@ -1,0 +1,24 @@
+html {
+	overflow: hidden;
+}
+
+nav.navbar.navbar-default {
+	height:100px;
+	margin-bottom: 0px;
+}
+
+#interactive-carousel {
+	background-color: yellow; 
+	height:600px; 
+	width:100%; 
+	overflow:hidden;
+}
+
+#footer {
+	position: absolute;
+    bottom: 0;
+    width:100%;
+    margin: 0px;
+    height: 100px;
+    background: rgb(248, 248, 248);
+}
